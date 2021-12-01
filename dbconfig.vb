@@ -14,7 +14,7 @@ Module dbconfig
             End If
 
         Catch ex As Exception
-            MessageBox.Show("Failed connect to database...", CStr(MsgBoxStyle.Critical))
+            MsgBox("Failed connect to database...", MsgBoxStyle.Critical)
         End Try
     End Sub
 End Module
